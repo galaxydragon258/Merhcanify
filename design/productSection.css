@@ -1,0 +1,116 @@
+body{
+    padding-top:60px;
+    font-family: Roboto;
+    height: 1000px;
+    margin-left: 0;
+    margin-right: 0;
+    
+    
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+section{
+    display:grid;
+    grid-template-columns: 1f;
+    max-width: 700px;
+}
+
+
+.product-preview{
+    display: flex;
+    
+}
+
+
+.product-infos{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 1px black;
+    padding: 10px 10px;
+
+}
+
+.price{
+    font-weight: bold;
+}
+
+.product-infos div{
+    padding-bottom: 10px;
+
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-image{
+    width: 150px;
+    object-fit: cover;
+ 
+}
+
+.product-name{
+    font-size: 15px;
+}
+
+.star-count{
+    display: flex;
+    justify-content: space-between;
+}
+
+.star{
+    width: 100px;
+}
+
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206, 217, 54);
+    padding: 7px  50px;
+    border-radius: 27px;
+}
+
+.add-to-cart{
+    border:none;
+    background-color: transparent;
+}
+
+.button-container:hover{
+    background-color: rgb(215, 191, 54);
+    cursor:pointer;
+
+}
+
+.quantity{
+    padding:5px 5px;
+    border-radius:7px;
+    box-shadow:  0 0 5px rgba(47, 49, 49,0.1);
+    border-color: rgb(218, 225, 218);
+    background-color: rgb(243, 240, 240);;
+
+}
+
+.ratings{
+    color:rgb(90, 77, 227)
+}
+
+.checkmark-container{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.checkmark-container p{
+    display: inline-block;
+    font-size: 14px;
+}
+.checkmark-container img{
+    width: 20px;    
+}
